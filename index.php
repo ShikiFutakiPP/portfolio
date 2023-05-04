@@ -38,24 +38,18 @@
                 // mettre le contenu du fichier dans une variable
                 $data = file_get_contents($file); 
                 // décoder le flux JSON
-                $projects = json_decode($data); 
-
-                var_dump($projects);
+                $projects = array_reverse(json_decode($data)); 
 
                 foreach ($projects as $aProject) {
-                    var_dump($aProject);
-                    var_dump($aProject['name']);
 
                     echo    '<div class="card">
-                                <img src="'.$aProject['img'].'" alt="Projet" style="width:100%">
+                                <img src="img/'.$aProject->img.'" alt="Image du projet" style="width:100%">
                                 <div class="container">
-                                    <h3><b>'.$aProject['name'].'</b></h3> 
-                                    <p>'.$aProject['description'].'</p>
+                                    <h3><b>'.$aProject->name.'</b></h3> 
+                                    <p>'.$aProject->description.'</p>
                                 </div>
                             </div>';
                 }
-
-
 
 
 
