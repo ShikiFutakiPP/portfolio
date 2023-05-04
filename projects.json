@@ -1,28 +1,28 @@
 [
   {
     "name" : "Compte GitHub et importation de mes projets",
-    "description" :  "Lorem Ipsum TMTC",
+    "description" :  "",
     "img" : "github.png",
     "link" : "https://github.com/ShikiFutakiPP"
   }, 
   
   {
     "name" : "Compte Linkedin",
-    "description" :  "Lorem Ipsum TMTC",
+    "description" :  "Création d'un compte professionnel Linkedin",
     "img" : "linkdin.png",
-    "link" : ""
+    "link" : "https://fr.linkedin.com/in/kevin-fort-45e"
   }, 
     
   {
     "name" : "Formation Devops",
-    "description" : "Lorem Ipsum",
-    "img" : "",
-    "link" : ""
+    "description" : "Suivi de la formation Azure Devops",
+    "img" : "azure.png",
+    "link" : "ressources/azure.png"
   },
     
   {
     "name" : "Mise en place de GLPI",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "",
     "link" : ""
   },
@@ -31,21 +31,21 @@
     "name" : "Portfolio",
     "description" : "Lorem Ipsum",
     "img" : "",
-    "link" : ""
+    "link" : "https://github.com/ShikiFutakiPP/portfolio"
   },
     
   {
     "name" : "Procédure - Gestion des stratégies de groupe",
-    "description" : "Lorem Ipsum",
+    "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
     "img" : "groupe.png",
-    "link" : "Strategie_de_groupe.pdf"
+    "link" : "ressources/Strategie_de_groupe.pdf"
   },
     
   {
     "name" : "Procédure - Mise en place de GitLab",
-    "description" : "Lorem Ipsum",
-    "img" : "",
-    "link" : ""
+    "description" : "Procédure de la mise en place de GitLab",
+    "img" : "gitLab.png",
+    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
   },
     
   {
@@ -57,28 +57,28 @@
        
   {
     "name" : "Site de gestion de liste de choses à faire - Bucket List",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "bucket-list",
-    "link" : ""
+    "link" : "https://github.com/ShikiFutakiPP/bucket-list"
   },  
 
   {
     "name" : "Site de suivi des demandes et documents pour les stages",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "stage.png",
     "link" : ""
   },
 
   {
     "name" : "Site de commandes de fleurs et de gestion des stocks - Lafleur",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "lafleur.png",
     "link" : ""
   },
 
   {
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes (Mairie Fleury)",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "mairie.png",
     "link" : ""
   }

@@ -42,7 +42,7 @@
 
                 foreach ($projects as $aProject) {
 
-                    echo    '<div class="card">
+                    echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">
                                 <img src="img/'.$aProject->img.'" alt="Image du projet" style="width:100%">
                                 <div class="container">
                                     <h3><b>'.$aProject->name.'</b></h3> 
