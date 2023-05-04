@@ -1,13 +1,20 @@
+@font-face {
+  font-family: 'Amatic';
+  src: url('css/amatic.woff2');
+  }
+
+
 body{
     background-color: black;
-    color:white
+    color:white;
+    font-family: 'Amatic';
 }
 
 main{
     width:90%;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Amatic SC';
+    font-family: 'Amatic';
     font-size: 1.5vw;
 
 }

@@ -23,7 +23,7 @@
   {
     "name" : "Mise en place de GLPI",
     "description" : "",
-    "img" : "",
+    "img" : "glpi.png",
     "link" : ""
   },
     
@@ -43,14 +43,14 @@
     
   {
     "name" : "Procédure - Mise en place de GitLab",
-    "description" : "Procédure de la mise en place de GitLab",
+    "description" : "",
     "img" : "gitLab.png",
     "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
   },
     
   {
     "name" : "Site d'auto-évaluation par compétence et leur suivi (MSL)",
-    "description" : "Lorem Ipsum",
+    "description" : "",
     "img" : "",
     "link" : ""
   },
