@@ -20,11 +20,14 @@
     <main>
         <section id="presentation">
             <h2>Présentation</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitating ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <div class="box">
+                <img src="img/photo.png" style="width:150px;height:auto;margin-left:5%">
+                <p style="margin-left:5%;margin-right:10%">
+                    Nom : Kevin Fort</br>
+                    Classe : BTS SIO 2</br>
+                    Option : SLAM (Solutions Logicielles et Applications Métiers)</br>
+                </p>
+            </div>
         </section>
 
         <h2>Mes projets</h2>

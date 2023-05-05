@@ -1,13 +1,6 @@
-@font-face {
-  font-family: 'Amatic';
-  src: url('css/amatic.woff2');
-  }
-
-
 body{
     background-color: black;
     color:white;
-    font-family: 'Amatic';
 }
 
 main{
@@ -15,26 +8,28 @@ main{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Amatic';
-    font-size: 1.5vw;
-
+    font-size: 1.7vw;
 }
 
 h2 {
     text-align: center;
+    font-size: 5vw;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 25%;
     border-radius: 20px;
     background-color: #282828;
+    margin-top: auto;
+    box-shadow: inset 0 -5px 5px rgba(255, 255, 255, 0), 0 1px 1px rgba(255, 255, 255, 0);
     transition: all 0.2s;
   }
   
   .card:hover {
     transform:scale(1.1);
     cursor: pointer;
+    box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(255, 255, 255, 0.8);
   }
   
   img {
@@ -58,4 +53,8 @@ h2 {
     align-content: center;
     align-items: center;
     
+}
+
+.box{
+  display: flex;
 }
