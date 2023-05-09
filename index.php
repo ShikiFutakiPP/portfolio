@@ -45,11 +45,11 @@
                 foreach ($projects as $aProject) {
 
                     echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">
-                                <img src="img/'.$aProject->img.'" alt="Image du projet">
+                                <img src="logo2/'.$aProject->logo.'" alt="Image du projet">
                                 <div class="container">
-                                    <h3><b>'.$aProject->name.'</b></h3>'; 
+                                    <h3>'.$aProject->name.'</h3>'; 
                                     //echo '<p>'.$aProject->description.'</p>';
-                                echo '</div>
+                            echo '</div>
                             </div>';
                 }
             ?>

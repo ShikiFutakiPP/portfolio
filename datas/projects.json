@@ -2,6 +2,7 @@
   {
     "name" : "Compte GitHub et importation de mes projets",
     "description" :  "",
+    "logo" : "github.png",
     "img" : "github.png",
     "link" : "https://github.com/ShikiFutakiPP"
   }, 
@@ -9,6 +10,7 @@
   {
     "name" : "Compte Linkedin",
     "description" :  "Création d'un compte professionnel Linkedin",
+    "logo" : "linkdin.png",
     "img" : "linkdin.png",
     "link" : "https://fr.linkedin.com/in/kevin-fort-45e"
   }, 
@@ -16,6 +18,7 @@
   {
     "name" : "Formation Devops",
     "description" : "Suivi de la formation Azure Devops",
+    "logo" : "azure.png",
     "img" : "azure.png",
     "link" : "ressources/azure.png"
   },
@@ -23,6 +26,7 @@
   {
     "name" : "Mise en place de GLPI",
     "description" : "",
+    "logo" : "glpi.png",
     "img" : "glpi.png",
     "link" : ""
   },
@@ -30,6 +34,7 @@
   {
     "name" : "Portfolio",
     "description" : "Lorem Ipsum",
+    "logo" : "portfolio.png",
     "img" : "",
     "link" : "https://github.com/ShikiFutakiPP/portfolio"
   },
@@ -37,6 +42,7 @@
   {
     "name" : "Procédure - Gestion des stratégies de groupe",
     "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
+    "logo" : "groupe.png",
     "img" : "groupe.png",
     "link" : "ressources/Strategie_de_groupe.pdf"
   },
@@ -44,42 +50,48 @@
   {
     "name" : "Procédure - Mise en place de GitLab",
     "description" : "",
+    "logo" : "gitLab.png",
     "img" : "gitLab.png",
     "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
   },
     
   {
-    "name" : "Site d'auto-évaluation par compétence et leur suivi (MSL)",
+    "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
     "description" : "",
-    "img" : "",
+    "logo" : "MSL.png",
+    "img" : "MSL.png",
     "link" : "https://github.com/ShikiFutakiPP/MSL.git"
   },
        
   {
-    "name" : "Site de gestion de liste de choses à faire - Bucket List",
+    "name" : "Site de gestion de liste de choses à faire<br/>(Bucket List)",
     "description" : "",
-    "img" : "bucket-list",
+    "logo" : "bucket-list.png",
+    "img" : "bucket-list.png",
     "link" : "https://github.com/ShikiFutakiPP/bucket-list"
   },  
 
   {
     "name" : "Site de suivi des demandes et documents pour les stages",
     "description" : "",
+    "logo" : "stage.png",
     "img" : "stage.png",
     "link" : "https://github.com/armanceau2/Stages2023"
   },
 
   {
-    "name" : "Site de commandes de fleurs et de gestion des stocks - Lafleur",
+    "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
     "description" : "",
+    "logo" : "lafleur.png",
     "img" : "lafleur.png",
     "link" : "https://github.com/DylanAndradePereira/Lafleur"
   },
 
   {
-    "name" : "Site de partage des documents et gestion des rapports pour les Astreintes (Mairie Fleury)",
+    "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
     "description" : "",
+    "logo" : "mairie.png",
     "img" : "mairie.png",
-    "link" : ""
+    "link" : "https://github.com/ShikiFutakiPP/astreinte"
   }
 ]
