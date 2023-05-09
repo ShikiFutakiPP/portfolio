@@ -4,13 +4,41 @@
     <h2 id="my-presentation">Présentation</h2>
         <section id="presentation">
             <div class="box">
-                <img src="img/photo.png" style="width:150px;height:auto;margin-left:5%">
-                <p style="margin-left:5%;margin-right:10%">
+                <img src="img/photo.png" style="width:15vw;height:auto;margin-left:5%">
+                <p style="margin-left:5%;margin-right:10%;text-align: start;">
                     Nom : Kevin Fort</br>
+                    Âge : 22 ans</br>
                     Classe : BTS SIO 2</br>
                     Option : SLAM (Solutions Logicielles et Applications Métiers)</br>
                 </p>
+                <a href="ressources/CV.pdf" style="display: block;margin-top: auto;margin-bottom: auto;">
+                    <button>Voir mon CV</button>
+                </a>
             </div>
+        </section>
+
+    <h2 id="my-experience">Expérience professionnelle</h2>
+        <section id="experience">
+            <?php
+                // chemin d'accès à votre fichier JSON
+                $fileXP = 'datas/experiences.json'; 
+                // mettre le contenu du fichier dans une variable
+                $dataXP = file_get_contents($fileXP); 
+                // décoder le flux JSON
+                $experiences = json_decode($dataXP); 
+
+                foreach ($experiences as $anExperience) {
+
+                    /*echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">*/
+                    echo    '<div class="card">
+                                <img src="logo/'.$anExperience->logo.'" alt="Image du projet">
+                                <div class="container">
+                                    <h3>'.$anExperience->name.'</h3>'; 
+                                    echo '<p>'.$anExperience->description.'</p>';
+                            echo '</div>
+                            </div>';
+                }
+            ?>
         </section>
 
     <h2 id="my-projects">Mes projets</h2>

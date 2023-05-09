@@ -1,0 +1,31 @@
+[
+    {
+      "name" : "Mairie de Fleury les Aubrais",
+      "description" : "7 semaines de stage (BTS SIO 2)<br/>8 semaines de stage (Terminale Pro SN)",
+      "logo" : "mairie.png"
+    },
+
+    {
+      "name" : "MSL Circuits",
+      "description" : "5 semaines de stage (BTS SIO 1)",
+      "logo" : "MSL.png"
+    },
+
+    {
+      "name" : "Conseil Départemental du Loiret",
+      "description" : "4 semaines de stage (Première Pro SN)",
+      "logo" : "loiret.png"
+    },
+
+    {
+      "name" : "BTS Services Informatiques aux Organisations",
+      "description" : "Option <b>SLAM</b><br/><span style='font-size:1.2vw'>(Solutions Logicielles et Applications Métiers)</span><br/>(2021-2023)",
+      "logo" : "st_paul_bts.png"
+    },
+
+    {
+      "name" : "Bac Pro Systèmes Numériques",
+      "description" : "Option <b>RISC</b><br/><span style='font-size:1.2vw'>(Réseaux Informatiques et Systèmes Communicants)</span><br/>(2019-2021)",
+      "logo" : "st_paul_bac.png"
+    }
+]

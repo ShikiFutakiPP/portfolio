@@ -59,17 +59,8 @@
     "name" : "Portfolio",
     "description" : "Lorem Ipsum",
     "logo" : "portfolio.png",
-    "img" : "",
+    "img" : "portfolio.png",
     "link" : "https://github.com/ShikiFutakiPP/portfolio"
-  },
-    
-  {
-    "id" : "msl",
-    "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
-    "description" : "",
-    "logo" : "MSL.png",
-    "img" : "MSL.png",
-    "link" : "https://github.com/ShikiFutakiPP/MSL.git"
   },
        
   {
@@ -79,6 +70,15 @@
     "logo" : "bucket-list.png",
     "img" : "bucket-list.png",
     "link" : "https://github.com/ShikiFutakiPP/bucket-list"
+  },
+
+  {
+    "id" : "msl",
+    "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
+    "description" : "",
+    "logo" : "MSL.png",
+    "img" : "MSL.png",
+    "link" : "https://github.com/ShikiFutakiPP/MSL.git"
   },  
 
   {
