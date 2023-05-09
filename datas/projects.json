@@ -1,5 +1,6 @@
 [
   {
+    "id" : "github",
     "name" : "Compte GitHub et importation de mes projets",
     "description" :  "",
     "logo" : "github.png",
@@ -8,6 +9,7 @@
   }, 
   
   {
+    "id" : "linkedin",
     "name" : "Compte Linkedin",
     "description" :  "Création d'un compte professionnel Linkedin",
     "logo" : "linkdin.png",
@@ -16,6 +18,7 @@
   }, 
     
   {
+    "id" : "devops",
     "name" : "Formation Devops",
     "description" : "Suivi de la formation Azure Devops",
     "logo" : "azure.png",
@@ -24,6 +27,7 @@
   },
     
   {
+    "id" : "glpi",
     "name" : "Mise en place de GLPI",
     "description" : "",
     "logo" : "glpi.png",
@@ -32,6 +36,7 @@
   },
     
   {
+    "id" : "portfolio",
     "name" : "Portfolio",
     "description" : "Lorem Ipsum",
     "logo" : "portfolio.png",
@@ -40,6 +45,7 @@
   },
     
   {
+    "id" : "groupe_AD",
     "name" : "Procédure - Gestion des stratégies de groupe",
     "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
     "logo" : "groupe.png",
@@ -48,6 +54,7 @@
   },
     
   {
+    "id" : "gitlab",
     "name" : "Procédure - Mise en place de GitLab",
     "description" : "",
     "logo" : "gitLab.png",
@@ -56,6 +63,7 @@
   },
     
   {
+    "id" : "msl",
     "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
     "description" : "",
     "logo" : "MSL.png",
@@ -64,6 +72,7 @@
   },
        
   {
+    "id" : "bucket",
     "name" : "Site de gestion de liste de choses à faire<br/>(Bucket List)",
     "description" : "",
     "logo" : "bucket-list.png",
@@ -72,6 +81,7 @@
   },  
 
   {
+    "id" : "stage",
     "name" : "Site de suivi des demandes et documents pour les stages",
     "description" : "",
     "logo" : "stage.png",
@@ -80,14 +90,16 @@
   },
 
   {
+    "id" : "lafleur",
     "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
-    "description" : "",
+    "description" : "test",
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
     "link" : "https://github.com/DylanAndradePereira/Lafleur"
   },
 
   {
+    "id" : "mairie",
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
     "description" : "",
     "logo" : "mairie.png",

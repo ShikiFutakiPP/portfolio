@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css.css" />
-    <title>Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Mon Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#mes-projets">Mes Projets</a></li>
-                <li><a href="#formation">Formation</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include 'header.php' ?>
     <main>
         <section id="presentation">
             <h2>Présentation</h2>
@@ -44,7 +26,8 @@
 
                 foreach ($projects as $aProject) {
 
-                    echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">
+                    /*echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">*/
+                    echo    '<div class="card" onClick="document.location.href=\'details.php?project='.$aProject->id.'\'">
                                 <img src="logo2/'.$aProject->logo.'" alt="Image du projet">
                                 <div class="container">
                                     <h3>'.$aProject->name.'</h3>'; 
@@ -82,11 +65,3 @@
         </section>
     </main>
 </body
-
-
-
-
-
-
-
-
