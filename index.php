@@ -1,7 +1,8 @@
 <?php include 'header.php' ?>
     <main>
+
+    <h2 id="my-presentation">Présentation</h2>
         <section id="presentation">
-            <h2>Présentation</h2>
             <div class="box">
                 <img src="img/photo.png" style="width:150px;height:auto;margin-left:5%">
                 <p style="margin-left:5%;margin-right:10%">
@@ -12,7 +13,7 @@
             </div>
         </section>
 
-        <h2>Mes projets</h2>
+    <h2 id="my-projects">Mes projets</h2>
 
         <section id="mes-projets">
 
@@ -28,7 +29,7 @@
 
                     /*echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">*/
                     echo    '<div class="card" onClick="document.location.href=\'details.php?project='.$aProject->id.'\'">
-                                <img src="logo2/'.$aProject->logo.'" alt="Image du projet">
+                                <img src="logo/'.$aProject->logo.'" alt="Image du projet">
                                 <div class="container">
                                     <h3>'.$aProject->name.'</h3>'; 
                                     //echo '<p>'.$aProject->description.'</p>';
@@ -39,7 +40,7 @@
 
         </section>
 
-        <h2>Mes formations</h2>
+    <h2 id="formations">Mes formations</h2>
 
         <section id="mes-form">
             <?php
@@ -53,7 +54,7 @@
                 foreach ($formations as $aFormation) {
 
                     echo    '<div class="card" onClick="document.location.href=\''.$aFormation->link.'\'">
-                                <img src="img/'.$aFormation->img.'" alt="Image de la formation">
+                                <img src="logo/'.$aFormation->img.'" alt="Image de la formation">
                                 <div class="container">
                                     <h3><b>'.$aFormation->name.'</b></h3>'; 
                                     //echo '<p>'.$aFormation->description.'</p>';

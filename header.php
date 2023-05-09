@@ -8,12 +8,13 @@
 </head>
 <body>
     <header>
-        <h1>Mon Portfolio</h1>
         <nav>
-            <ul>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#mes-projets">Mes Projets</a></li>
-                <li><a href="#formation">Formation</a></li>
+
+            <ul id="navbar">
+                <a href="index.php"><li>Mon Portfolio</li></a>
+                <a href="#my-presentation"><li>Présentation</li></a>
+                <a href="#my-projects"><li>Mes Projets</li></a>
+                <a href="#formations"><li>Formation</li></a>
             </ul>
         </nav>
     </header>

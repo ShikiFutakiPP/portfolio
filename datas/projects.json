@@ -1,4 +1,32 @@
 [
+    
+  {
+    "id" : "glpi",
+    "name" : "Mise en place de GLPI",
+    "description" : "",
+    "logo" : "glpi.png",
+    "img" : "glpi.png",
+    "link" : ""
+  },
+
+  {
+    "id" : "groupe_AD",
+    "name" : "Procédure - Gestion des stratégies de groupe",
+    "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
+    "logo" : "groupe.png",
+    "img" : "groupe.png",
+    "link" : "ressources/Strategie_de_groupe.pdf"
+  },
+    
+  {
+    "id" : "gitlab",
+    "name" : "Procédure - Mise en place de GitLab",
+    "description" : "",
+    "logo" : "gitLab.png",
+    "img" : "gitLab.png",
+    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
+  },
+
   {
     "id" : "github",
     "name" : "Compte GitHub et importation de mes projets",
@@ -25,16 +53,7 @@
     "img" : "azure.png",
     "link" : "ressources/azure.png"
   },
-    
-  {
-    "id" : "glpi",
-    "name" : "Mise en place de GLPI",
-    "description" : "",
-    "logo" : "glpi.png",
-    "img" : "glpi.png",
-    "link" : ""
-  },
-    
+
   {
     "id" : "portfolio",
     "name" : "Portfolio",
@@ -42,24 +61,6 @@
     "logo" : "portfolio.png",
     "img" : "",
     "link" : "https://github.com/ShikiFutakiPP/portfolio"
-  },
-    
-  {
-    "id" : "groupe_AD",
-    "name" : "Procédure - Gestion des stratégies de groupe",
-    "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
-    "logo" : "groupe.png",
-    "img" : "groupe.png",
-    "link" : "ressources/Strategie_de_groupe.pdf"
-  },
-    
-  {
-    "id" : "gitlab",
-    "name" : "Procédure - Mise en place de GitLab",
-    "description" : "",
-    "logo" : "gitLab.png",
-    "img" : "gitLab.png",
-    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
   },
     
   {

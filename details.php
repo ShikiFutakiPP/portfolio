@@ -19,12 +19,14 @@ echo '<main>';
 foreach ($projects as $aProject) {
     if ($aProject->id == $id){
         echo '<div class="box">
-                <img src="logo2/'.$aProject->logo.'" style="width:15%;height:15%;margin-left:2%;margin-right:5%;border-radius: 20%;">
+                <img src="logo/'.$aProject->logo.'" style="width:15%;height:15%;margin-left:2%;margin-right:5%;border-radius: 20%;">
                 <p>
                     <h2>'.$aProject->name.'</h2>
                 </p>
             </div>
-            <a href = "'.$aProject->link.'\'"><button>Accéder au projet</button></a>
+            <a href = "'.$aProject->link.'\'" style="display: block;margin-right: 0px;margin-left: auto;">
+                <button>Accéder au projet</button>
+            </a>
 
         
             <p>'.$aProject->description.'</p>
