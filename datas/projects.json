@@ -66,14 +66,14 @@
     "name" : "Site de suivi des demandes et documents pour les stages",
     "description" : "",
     "img" : "stage.png",
-    "link" : ""
+    "link" : "https://github.com/armanceau2/Stages2023"
   },
 
   {
     "name" : "Site de commandes de fleurs et de gestion des stocks - Lafleur",
     "description" : "",
     "img" : "lafleur.png",
-    "link" : ""
+    "link" : "https://github.com/DylanAndradePereira/Lafleur"
   },
 
   {
