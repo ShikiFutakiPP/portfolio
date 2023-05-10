@@ -101,7 +101,7 @@
   {
     "id" : "mairie",
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
-    "description" : "",
+    "description" : "Dans le cadre de mon stage de seconde année, j'ai développé un site web à destination des agents de la mairie de Fleury-Les-Aubrais.",
     "logo" : "mairie.png",
     "img" : "mairie.png",
     "link" : "https://github.com/ShikiFutakiPP/astreinte"

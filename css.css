@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(28, 28, 28);
     color:white;
@@ -41,7 +45,7 @@ p {
     width: 25%;
   }
 
-  .card:hover {
+  #mes-projets .card:hover , #mes-form .card:hover {
     transform:scale(1.1);
     cursor: pointer;
     box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(255, 255, 255, 0.8);
@@ -103,7 +107,7 @@ a button:hover{
 }
 
 .img_project:hover{
-  width: 100%;
+  width: 90%;
 }
 
 #navbar{
