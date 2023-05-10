@@ -1,8 +1,10 @@
 [
-    {
-      "name" : "Pix",
-      "description" :  "",
-      "img" : "pix.png",
-      "link" : ""
-    }
+  {
+    "id" : "pix",
+    "name" : "Pix",
+    "description" :  "",
+    "logo" :  "pix.png",
+    "img" : "pix.png",
+    "link" : "https://pix.fr/"
+  }
 ]

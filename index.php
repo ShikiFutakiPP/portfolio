@@ -81,8 +81,8 @@
 
                 foreach ($formations as $aFormation) {
 
-                    echo    '<div class="card" onClick="document.location.href=\''.$aFormation->link.'\'">
-                                <img src="logo/'.$aFormation->img.'" alt="Image de la formation">
+                    echo    '<div class="card" onClick="document.location.href=\'details.php?formation='.$aFormation->id.'\'">
+                                <img src="logo/'.$aFormation->logo.'" alt="Image de la formation">
                                 <div class="container">
                                     <h3><b>'.$aFormation->name.'</b></h3>'; 
                                     //echo '<p>'.$aFormation->description.'</p>';
