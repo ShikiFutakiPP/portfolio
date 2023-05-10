@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
     <main>
 
-    <h2 id="my-presentation">Présentation</h2>
+    <h2 id="my-presentation" class="section_index">Présentation</h2>
         <section id="presentation">
             <div class="box">
                 <img src="img/photo.png" style="width:15vw;height:auto;margin-left:5%">
@@ -17,7 +17,7 @@
             </div>
         </section>
 
-    <h2 id="my-experience">Expérience professionnelle</h2>
+    <h2 id="my-experience" class="section_index">Expérience professionnelle</h2>
         <section id="experience">
             <?php
                 // chemin d'accès à votre fichier JSON
@@ -41,7 +41,7 @@
             ?>
         </section>
 
-    <h2 id="my-projects">Mes projets</h2>
+    <h2 id="my-projects" class="section_index">Mes projets</h2>
 
         <section id="mes-projets">
 
@@ -68,7 +68,7 @@
 
         </section>
 
-    <h2 id="formations">Mes formations</h2>
+    <h2 id="formations" class="section_index">Mes formations</h2>
 
         <section id="mes-form">
             <?php

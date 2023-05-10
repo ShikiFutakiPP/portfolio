@@ -2,7 +2,6 @@
   {
     "id" : "pix",
     "name" : "Pix",
-    "description" :  "",
     "logo" :  "pix.png",
     "img" : "attestation_pix.png",
     "link" : "https://pix.fr/"

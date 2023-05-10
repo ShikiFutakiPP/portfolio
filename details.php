@@ -23,6 +23,7 @@ if (isset($_REQUEST['project']) && ($_REQUEST['project'])){
     }
 }
  include 'header.php';
+ include 'datas/descriptions.php';
 
 // mettre le contenu du fichier dans une variable
 $data = file_get_contents($file); 
@@ -44,7 +45,7 @@ foreach ($elements as $anElement) {
             </a>
 
         
-            <p>'.$anElement->description.'</p>
+            <p>'.$descriptions[$id].'</p>
             <br/>
             <img src="img/'.$anElement->img.'" class="img_project">
             </center>

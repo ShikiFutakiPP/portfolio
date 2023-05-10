@@ -1,7 +1,7 @@
 [
     {
-      "name" : "Mairie de Fleury les Aubrais",
-      "description" : "7 semaines de stage (BTS SIO 2)<br/>8 semaines de stage (Terminale Pro SN)",
+      "name" : "Mairie Fleury-les-Aubrais",
+      "description" : "7 semaines de stage (BTS SIO 2)",
       "logo" : "mairie.png"
     },
 
@@ -9,12 +9,6 @@
       "name" : "MSL Circuits",
       "description" : "5 semaines de stage (BTS SIO 1)",
       "logo" : "MSL.png"
-    },
-
-    {
-      "name" : "Conseil Départemental du Loiret",
-      "description" : "4 semaines de stage (Première Pro SN)",
-      "logo" : "loiret.png"
     },
 
     {

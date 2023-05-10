@@ -2,7 +2,6 @@
   {
     "id" : "glpi",
     "name" : "Mise en place de GLPI",
-    "description" : "",
     "logo" : "glpi.png",
     "img" : "glpi.png",
     "link" : ""
@@ -11,7 +10,6 @@
   {
     "id" : "groupe_AD",
     "name" : "Procédure - Gestion des stratégies de groupe",
-    "description" : "Procédure de la gestion des stratégies de groupe dans Active Directory",
     "logo" : "groupe.png",
     "img" : "groupe.png",
     "link" : "ressources/Strategie_de_groupe.pdf"
@@ -20,7 +18,6 @@
   {
     "id" : "gitlab",
     "name" : "Procédure - Mise en place de GitLab",
-    "description" : "",
     "logo" : "gitLab.png",
     "img" : "gitLab.png",
     "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
@@ -29,7 +26,6 @@
   {
     "id" : "linkedin",
     "name" : "Compte Linkedin",
-    "description" :  "Création d'un compte professionnel Linkedin",
     "logo" : "linkdin.png",
     "img" : "linkdin.png",
     "link" : "https://fr.linkedin.com/in/kevin-fort-45e"
@@ -38,7 +34,6 @@
   {
     "id" : "github",
     "name" : "Compte GitHub et importation de mes projets",
-    "description" :  "",
     "logo" : "github.png",
     "img" : "github.png",
     "link" : "https://github.com/ShikiFutakiPP"
@@ -47,7 +42,6 @@
   {
     "id" : "portfolio",
     "name" : "Portfolio",
-    "description" : "Lorem Ipsum",
     "logo" : "portfolio.png",
     "img" : "portfolio.png",
     "link" : "https://github.com/ShikiFutakiPP/portfolio"
@@ -56,7 +50,6 @@
   {
     "id" : "devops",
     "name" : "Formation Devops",
-    "description" : "Suivi de la formation Azure Devops",
     "logo" : "azure.png",
     "img" : "azure.png",
     "link" : "ressources/azure.png"
@@ -65,7 +58,6 @@
   {
     "id" : "bucket",
     "name" : "Site de gestion de liste de choses à faire<br/>(Bucket List)",
-    "description" : "",
     "logo" : "bucket-list.png",
     "img" : "bucket-list.png",
     "link" : "https://github.com/ShikiFutakiPP/bucket-list"
@@ -74,7 +66,6 @@
   {
     "id" : "msl",
     "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
-    "description" : "<b>Cadre :</b> Stage de première année de BTS.<br/><b>Destinataires :</b> Les employés de MSL Circuits<br/><br/>",
     "logo" : "MSL.png",
     "img" : "MSL.png",
     "link" : "https://github.com/ShikiFutakiPP/MSL.git"
@@ -83,7 +74,6 @@
   {
     "id" : "stage",
     "name" : "Site de suivi des demandes et documents pour les stages",
-    "description" : "",
     "logo" : "stage.png",
     "img" : "stage.png",
     "link" : "https://github.com/armanceau2/Stages2023"
@@ -92,7 +82,6 @@
   {
     "id" : "lafleur",
     "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
-    "description" : "<b>Cadre :</b> Seconde année de BTS.<br/>",
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
     "link" : "https://github.com/DylanAndradePereira/Lafleur"
@@ -101,7 +90,6 @@
   {
     "id" : "mairie",
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
-    "description" : "<b>Cadre :</b> Stage de seconde année de BTS.<br/><b>Destinataires :</b> Agents d'astreinte au sein de la mairie de Fleury-Les-Aubrais.<br/><br/>Dans le cadre de ce stage, j'ai développé un site web permettant aux agents qui étaient d'astreinte : <ul><li>d’accéder à des documents (des procédures, des plans,…)</li><li>d'envoyer un rapport de leur intervention</li><li>de consulter le planning des personnes d’astreintes pour une semaine</li><li>de consulter la liste des rapports des interventions effectués</li><li>pour les personnes autorisées, de gérer le planning d'astreinte par semaine</li></ul>",
     "logo" : "mairie.png",
     "img" : "mairie.png",
     "link" : "https://github.com/ShikiFutakiPP/astreinte"
