@@ -24,15 +24,6 @@
     "logo" : "gitLab.png",
     "img" : "gitLab.png",
     "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
-  },
-
-  {
-    "id" : "github",
-    "name" : "Compte GitHub et importation de mes projets",
-    "description" :  "",
-    "logo" : "github.png",
-    "img" : "github.png",
-    "link" : "https://github.com/ShikiFutakiPP"
   }, 
   
   {
@@ -43,14 +34,14 @@
     "img" : "linkdin.png",
     "link" : "https://fr.linkedin.com/in/kevin-fort-45e"
   }, 
-    
+
   {
-    "id" : "devops",
-    "name" : "Formation Devops",
-    "description" : "Suivi de la formation Azure Devops",
-    "logo" : "azure.png",
-    "img" : "azure.png",
-    "link" : "ressources/azure.png"
+    "id" : "github",
+    "name" : "Compte GitHub et importation de mes projets",
+    "description" :  "",
+    "logo" : "github.png",
+    "img" : "github.png",
+    "link" : "https://github.com/ShikiFutakiPP"
   },
 
   {
@@ -60,6 +51,15 @@
     "logo" : "portfolio.png",
     "img" : "portfolio.png",
     "link" : "https://github.com/ShikiFutakiPP/portfolio"
+  },
+
+  {
+    "id" : "devops",
+    "name" : "Formation Devops",
+    "description" : "Suivi de la formation Azure Devops",
+    "logo" : "azure.png",
+    "img" : "azure.png",
+    "link" : "ressources/azure.png"
   },
        
   {
@@ -74,7 +74,7 @@
   {
     "id" : "msl",
     "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
-    "description" : "",
+    "description" : "<b>Cadre :</b> Stage de première année de BTS.<br/><b>Destinataires :</b> Les employés de MSL Circuits<br/><br/>",
     "logo" : "MSL.png",
     "img" : "MSL.png",
     "link" : "https://github.com/ShikiFutakiPP/MSL.git"
@@ -92,7 +92,7 @@
   {
     "id" : "lafleur",
     "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
-    "description" : "test",
+    "description" : "<b>Cadre :</b> Seconde année de BTS.<br/>",
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
     "link" : "https://github.com/DylanAndradePereira/Lafleur"
@@ -101,7 +101,7 @@
   {
     "id" : "mairie",
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
-    "description" : "Dans le cadre de mon stage de seconde année, j'ai développé un site web à destination des agents de la mairie de Fleury-Les-Aubrais.",
+    "description" : "<b>Cadre :</b> Stage de seconde année de BTS.<br/><b>Destinataires :</b> Agents d'astreinte au sein de la mairie de Fleury-Les-Aubrais.<br/><br/>Dans le cadre de ce stage, j'ai développé un site web permettant aux agents qui étaient d'astreinte : <ul><li>d’accéder à des documents (des procédures, des plans,…)</li><li>d'envoyer un rapport de leur intervention</li><li>de consulter le planning des personnes d’astreintes pour une semaine</li><li>de consulter la liste des rapports des interventions effectués</li><li>pour les personnes autorisées, de gérer le planning d'astreinte par semaine</li></ul>",
     "logo" : "mairie.png",
     "img" : "mairie.png",
     "link" : "https://github.com/ShikiFutakiPP/astreinte"

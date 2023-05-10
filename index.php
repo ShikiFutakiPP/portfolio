@@ -6,10 +6,10 @@
             <div class="box">
                 <img src="img/photo.png" style="width:15vw;height:auto;margin-left:5%">
                 <p style="margin-left:5%;margin-right:10%;text-align: start;">
-                    Nom : Kevin Fort</br>
-                    Âge : 22 ans</br>
-                    Classe : BTS SIO 2</br>
-                    Option : SLAM (Solutions Logicielles et Applications Métiers)</br>
+                    <b>Nom :</b> Kevin Fort</br>
+                    <b>Âge :</b> 22 ans</br>
+                    <b>Classe :</b> BTS SIO 2</br>
+                    <b>Option :</b> SLAM (Solutions Logicielles et Applications Métiers)</br>
                 </p>
                 <a href="ressources/CV.pdf" style="display: block;margin-top: auto;margin-bottom: auto;">
                     <button>Voir mon CV</button>
