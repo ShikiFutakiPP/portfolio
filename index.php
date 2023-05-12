@@ -17,7 +17,7 @@
             </div>
         </section>
 
-    <h2 id="my-experience" class="section_index">Expérience professionnelle</h2>
+    <h2 id="my-experience" class="section_index">Parcours professionnel</h2>
         <section id="experience">
             <?php
                 // chemin d'accès à votre fichier JSON
