@@ -4,7 +4,11 @@
     "name" : "Mise en place de GLPI",
     "logo" : "glpi.png",
     "img" : "glpi.png",
-    "link" : ""
+    "link" : "",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "patrimoine"}
+    ]
   },
 
   {
@@ -12,7 +16,11 @@
     "name" : "Procédure - Gestion des stratégies de groupe",
     "logo" : "groupe.png",
     "img" : "groupe.png",
-    "link" : "ressources/Strategie_de_groupe.pdf"
+    "link" : "ressources/Strategie_de_groupe.pdf",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "patrimoine"}
+    ]
   },
     
   {
@@ -20,7 +28,11 @@
     "name" : "Procédure - Mise en place de GitLab",
     "logo" : "gitLab.png",
     "img" : "gitLab.png",
-    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf"
+    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "disposition"}
+    ]
   }, 
   
   {
@@ -28,7 +40,11 @@
     "name" : "Compte Linkedin",
     "logo" : "linkdin.png",
     "img" : "linkdin.png",
-    "link" : "https://fr.linkedin.com/in/kevin-fort-45e"
+    "link" : "https://fr.linkedin.com/in/kevin-fort-45e",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "professionnal"}
+    ]
   }, 
 
   {
@@ -36,7 +52,12 @@
     "name" : "Compte GitHub et importation de mes projets",
     "logo" : "github.png",
     "img" : "github.png",
-    "link" : "https://github.com/ShikiFutakiPP"
+    "link" : "https://github.com/ShikiFutakiPP",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "projet"},
+      {"comp" : "professionnal"}
+    ]
   },
 
   {
@@ -44,15 +65,11 @@
     "name" : "Portfolio",
     "logo" : "portfolio.png",
     "img" : "portfolio.png",
-    "link" : "https://github.com/ShikiFutakiPP/portfolio"
-  },
-
-  {
-    "id" : "devops",
-    "name" : "Formation Devops",
-    "logo" : "azure.png",
-    "img" : "azure.png",
-    "link" : "ressources/azure.png"
+    "link" : "https://github.com/ShikiFutakiPP/portfolio",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "professionnal"}
+    ]
   },
        
   {
@@ -60,7 +77,11 @@
     "name" : "Site de gestion de liste de choses à faire<br/>(Bucket List)",
     "logo" : "bucket-list.png",
     "img" : "bucket-list.png",
-    "link" : "https://github.com/ShikiFutakiPP/bucket-list"
+    "link" : "https://github.com/ShikiFutakiPP/bucket-list",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "disposition"}
+    ]
   },
 
   {
@@ -68,7 +89,11 @@
     "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
     "logo" : "MSL.png",
     "img" : "MSL.png",
-    "link" : "https://github.com/ShikiFutakiPP/MSL.git"
+    "link" : "https://github.com/ShikiFutakiPP/MSL.git",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "disposition"}
+    ]
   },  
 
   {
@@ -76,7 +101,14 @@
     "name" : "Site de suivi des demandes et documents pour les stages",
     "logo" : "stage.png",
     "img" : "stage.png",
-    "link" : "https://github.com/armanceau2/Stages2023"
+    "link" : "https://github.com/armanceau2/Stages2023",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "assistance"},
+      {"comp" : "presence_ligne"},
+      {"comp" : "projet"},
+      {"comp" : "disposition"}
+    ]
   },
 
   {
@@ -84,7 +116,12 @@
     "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
-    "link" : "https://github.com/DylanAndradePereira/Lafleur"
+    "link" : "https://github.com/DylanAndradePereira/Lafleur",
+    "doc" : "",
+    "comps" : [
+      {"comp" : "presence_ligne"},
+      {"comp" : "disposition"}
+    ]
   },
 
   {
@@ -92,6 +129,11 @@
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
     "logo" : "mairie.png",
     "img" : "mairie.png",
-    "link" : "https://github.com/ShikiFutakiPP/astreinte"
+    "link" : "https://github.com/ShikiFutakiPP/astreinte",
+    "doc" : "ressources/Doc_Astreintes.pdf",
+    "comps" : [
+      {"comp" : "presence_ligne"},
+      {"comp" : "disposition"}
+    ]
   }
 ]

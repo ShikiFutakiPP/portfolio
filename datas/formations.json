@@ -5,5 +5,13 @@
     "logo" :  "pix.png",
     "img" : "attestation_pix.png",
     "link" : "https://pix.fr/"
+  },
+
+  {
+    "id" : "form_devops",
+    "name" : "Formation Devops",
+    "logo" :  "azure.png",
+    "img" : "azure.png",
+    "link" : "https://learn.microsoft.com/fr-fr/training/paths/evolve-your-devops-practices/"
   }
 ]

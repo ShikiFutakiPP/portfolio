@@ -1,6 +1,9 @@
 <?php
 
 if (isset($_REQUEST['project']) && ($_REQUEST['project'])){
+    //Inclure la table des compétences
+    include 'datas/table_comp.php';
+
     //ID = ID du projet
     $id = $_REQUEST['project'];
     $typeElement = "au projet";
@@ -39,12 +42,33 @@ foreach ($elements as $anElement) {
                 <p>
                     <h2>'.$anElement->name.'</h2>
                 </p>
-            </div>
-            <a href = "'.$anElement->link.'" style="display: block;margin-right: 0px;margin-left: auto;">
-                <button>Accéder '.$typeElement.'</button>
-            </a>
+            </div>';
 
+        echo '<div class="box">';
+        if ($typeElement == "au projet"){
+            foreach ($anElement->comps as $aComp) {
+                $valueComp = $aComp->comp;
+                $nameComp = $arrayComp[$valueComp];
+
+                echo '<img src="icons/'.$valueComp.'.png" title="'.$nameComp.'"
+                style="width:8%;height:8%;margin-right:1%;margin-top:10px">';
+            }
+        }
+        echo '<div style="display:block;margin-right: 0px;margin-left: auto;">
+        <a href = "'.$anElement->link.'">
+                <button style="margin-top:auto;margin-bottom:auto">Accéder '.$typeElement.'</button>
+            </a>';
         
+        if ($typeElement == "au projet"){
+            $docValue = $anElement->doc;
+            if (!empty($docValue)){
+                echo '<a href = "'.$anElement->link.'">
+                <button style="margin-top:auto;margin-bottom:auto">Accéder à la documentation</button>
+                </a>';
+            }
+        }    
+        echo '</div>
+        </div>        
             <p>'.$descriptions[$id].'</p>
             <br/>
             <img src="img/'.$anElement->img.'" class="img_project">
