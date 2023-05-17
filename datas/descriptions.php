@@ -13,7 +13,10 @@ Dans le cadre de ce stage, j'ai développé un site web permettant aux agents qu
     <li>de consulter le planning des personnes d’astreintes pour une semaine</li>
     <li>de consulter la liste des rapports des interventions effectués</li>
     <li>pour les personnes autorisées, de gérer le planning d'astreinte par semaine</li>
-</ul>";
+</ul>
+<a href = 'ressources/Doc_Astreintes' style='display: block;margin-right: 0px;margin-left: auto;'>
+                <button>Accéder à la documentation</button>
+            </a>";
 
 
 $descriptions['lafleur'] = "<b>Cadre :</b> Seconde année de BTS.<br/>";
