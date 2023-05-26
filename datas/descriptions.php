@@ -18,13 +18,19 @@ Dans le cadre de ce stage, j'ai développé un site web permettant aux agents de
 
 $descriptions['lafleur'] = "<b>Modalité :</b> Effectué en équipe<br/>
 <b>Cadre :</b> Projet de seconde année<br/>
-";
+<br/>
+Dans le cadre de ce projet, mon groupe a effectué le développement d'un site de vente de fleur en ligne permettant à chaque utilisateur :
+<ul>
+    <li>d'accéder à un catalogue de fleurs</li>
+    <li>d'ajouter des fleurs à son panier s'il est connecté</li>
+    <li>d'accéder à son panier et le modifier s'il est connecté</li>
+</ul>";
 
 
 $descriptions['stage'] = "<b>Modalité :</b> Effectué en équipe<br/>
 <b>Cadre :</b> Projet de fin de seconde année<br/>
 <br/>
-Dans le cadre de ce projet, mon avons poursuivi le développement d'un site qui avait été commencé par les précédents étudiants de BTS SIO mais qui était non fonctionnel et inachevé.<br/>
+Dans le cadre de ce projet, mon groupe a poursuivi le développement d'un site qui avait été commencé par les précédents étudiants de BTS SIO mais qui était non fonctionnel et inachevé.<br/>
 Le site devait permettre à chaque élève principalement :
 <ul>
     <li>d'ajouter ses demandes de stage</li>

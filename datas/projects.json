@@ -119,7 +119,7 @@
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
     "link" : "https://github.com/DylanAndradePereira/Lafleur",
-    "doc" : "",
+    "doc" : "ressources/Doc_lafleur",
     "comps" : [
       {"comp" : "presence_ligne"},
       {"comp" : "disposition"}
