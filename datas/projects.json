@@ -132,7 +132,7 @@
     "logo" : "mairie.png",
     "img" : "mairie.png",
     "link" : "https://github.com/ShikiFutakiPP/astreinte",
-    "doc" : "ressources/Doc_Astreintes.pdf",
+    "doc" : "documentations/Doc_Astreintes.pdf",
     "comps" : [
       {"comp" : "presence_ligne"},
       {"comp" : "disposition"}

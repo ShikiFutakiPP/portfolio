@@ -62,7 +62,7 @@ foreach ($elements as $anElement) {
         if ($typeElement == "au projet"){
             $docValue = $anElement->doc;
             if (!empty($docValue)){
-                echo '<a href = "'.$anElement->link.'">
+                echo '<a href = "'.$docValue.'">
                 <button style="margin-top:auto;margin-bottom:auto">Accéder à la documentation</button>
                 </a>';
             }

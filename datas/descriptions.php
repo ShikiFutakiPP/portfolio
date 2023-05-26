@@ -65,11 +65,16 @@ $descriptions['glpi'] = "<b>Modalité :</b> Effectué seul<br/>
 
 
 
+$descriptions['linkedin'] = "<b>Modalité :</b> Effectué seul<br/>
+<b>Cadre :</b> Préparation de mon projet professionnel<br/>
+<br/>
+Création d'un compte professionnel Linkedin.";
 
-$descriptions['linkedin'] = "Création d'un compte professionnel Linkedin";
 
-
-$descriptions['github'] = "";
+$descriptions['github'] = "<b>Modalité :</b> Effectué seul<br/>
+<b>Cadre :</b> Préparation de mon projet professionnel<br/>
+<br/>
+Création d'un compte professionnel gitHub et importation de mes diffrents projets sur mon compte.";
 
 
 /* FORMATIONS */
