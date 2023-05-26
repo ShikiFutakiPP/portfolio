@@ -53,6 +53,7 @@ p {
  }
 
 .card {
+    display: block;
     width: 20%;
     border-radius: 20px;
     margin-bottom: auto;
@@ -65,7 +66,6 @@ p {
   }
 
   #mes-projets .card:hover , #mes-form .card:hover {
-    transform:scale(1.1);
     cursor: pointer;
     box-shadow: inset 0 -2px 2px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(255, 255, 255, 0.8);
     transform: rotate(1deg) scale(1.1);
@@ -182,8 +182,8 @@ a button:hover{
 }
 
 .radioComp label img{
-  width:4vw;
-  margin-right:5%;
+  width:6vw;
+  margin-right:4%;
 }
 
 
@@ -193,20 +193,20 @@ a button:hover{
 
 .radioComp input + label{
   border-radius: 60px;
-  border:dashed #f2f2f276 1px;
+  border:dashed #f2f2f23d 1px;
 	transition: all 0.1s;
 }
 
 .radioComp input:hover + label{
 	cursor: pointer;
-	background-color: rgba(255, 255, 255, 0.46);
+	background-color: rgba(255, 255, 255, 0.172);
 	box-shadow: inset 0 -4px 1px rgba(0,0,0,0.15);
 }
 
 .radioComp input:checked + label{
-	background-color: rgba(255, 255, 255, 0.212);
+	background-color: rgba(255, 255, 255, 0.314);
 	font-weight: bold;
   border-radius: 60px;
   border:dashed #f2f2f2 1px;
-	box-shadow: inset 0 -4px 1px rgba(0,0,0,0.15);
+	box-shadow: inset 0 -4px 1px rgba(58, 58, 58, 0.121);
 }
