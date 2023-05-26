@@ -158,3 +158,50 @@ a button:hover{
   font-size: 3vw;
   color: white;
 }
+
+
+#compTri{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.radioComp {
+  display: flex;
+  flex-direction: row;
+  margin-left:auto;
+  margin-right:auto
+}
+
+.radioComp label {
+  padding:10px 10px 10px 10px;
+  display: flex;
+  font-size:1.2px;
+  text-align: center;
+  align-items: center;
+  width:15vw;
+}
+
+
+.radioComp input[type="radio"]{
+	display: none;
+}
+
+.radioComp input + label{
+  border-radius: 60px;
+  border:dashed #f2f2f276 1px;
+	transition: all 0.1s;
+}
+
+.radioComp input:hover + label{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.46);
+	box-shadow: inset 0 -4px 1px rgba(0,0,0,0.15);
+}
+
+.radioComp input:checked + label{
+	background-color: rgba(255, 255, 255, 0.212);
+	font-weight: bold;
+  border-radius: 60px;
+  border:dashed #f2f2f2 1px;
+	box-shadow: inset 0 -4px 1px rgba(0,0,0,0.15);
+}

@@ -43,6 +43,12 @@
 
     <h2 id="my-projects" class="section_index">Mes projets</h2>
 
+    <?php 
+        //Barre tri compétences
+        include 'tri_bar.php';
+    ?>
+
+<br/><br/><br/>
         <section id="mes-projets">
 
             <?php
