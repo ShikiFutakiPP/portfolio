@@ -178,7 +178,12 @@ a button:hover{
   font-size:1.2px;
   text-align: center;
   align-items: center;
-  width:15vw;
+  width:22vw;
+}
+
+.radioComp label img{
+  width:4vw;
+  margin-right:5%;
 }
 
 

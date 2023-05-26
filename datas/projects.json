@@ -7,7 +7,9 @@
     "link" : "",
     "doc" : "",
     "comps" : [
-      {"comp" : "patrimoine"}
+      {"comp" : "patrimoine"},
+      {"comp" : "assistance"},
+      {"comp" : "disposition"}
     ]
   },
 

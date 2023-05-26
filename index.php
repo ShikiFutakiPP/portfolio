@@ -62,7 +62,12 @@
                 foreach ($projects as $aProject) {
 
                     /*echo    '<div class="card" onClick="document.location.href=\''.$aProject->link.'\'">*/
-                    echo    '<div class="card" onClick="document.location.href=\'details.php?project='.$aProject->id.'\'">
+                    echo    '<div id="proj_'.$aProject->id.'" class="card project'; 
+                    foreach ($aProject->comps as $aComp) {
+                        $valueComp = $aComp->comp;
+                        echo ' '.$valueComp;
+                    }
+                    echo '" onClick="document.location.href=\'details.php?project='.$aProject->id.'\'">
                                 <img src="logo/'.$aProject->logo.'" alt="Image du projet">
                                 <div class="container">
                                     <h3>'.$aProject->name.'</h3>'; 
