@@ -50,7 +50,8 @@ Dans le cadre de travaux pratiques, j'ai développé, à l'aide du framework Sym
 $descriptions['msl'] = "<b>Modalité :</b> Effectué seul<br/>
 <b>Cadre :</b> Stage de première année<br/>
 <br/>
-Dans le cadre de ce stage, j'ai développé un site à destination des employés de MSL Circuits.";
+Dans le cadre de ce stage, j'ai développé un site à destination des employés de MSL Circuits permettant à ceux-ci de s'auto-évaluer dans différentes compétences et de permettre à leurs managers de voir les auto-évaluations individuelles de chaque employé et de chaque équipe.<br/><br/>
+Ceci dans le but de remplacer par une base de donnée le fichier excel qui était jusque là rempli pour préparer les réunions des employés avec leur chef (par exemple, pour demander une formation sur une compétence).";
 
 
 $descriptions['gitlab'] = "<b>Modalité :</b> Effectué seul<br/>
@@ -63,7 +64,11 @@ Procédure de la gestion des stratégies de groupe dans Active Directory";
 
 
 $descriptions['portfolio'] = "<b>Modalité :</b> Effectué seul<br/>
-<b>Cadre :</b> Préparation de l'examen<br/>";
+<b>Cadre :</b> Préparation de l'examen<br/>
+<br/>
+Dans le cadre de la préparation de l'examen et, à terme, pour mon projet professionnel, j'ai développé un portfolio regroupant les différents projets effectués durant ma formation.<br/>
+<br/>
+J'ai programmé ce portfolio à l'aide de PHP, Javascript, CSS et de fichiers JSON dans lesquels sont stockés les différentes informations de chaque projet, formation ou élément de mon parcours professionnel.";
 
 
 $descriptions['glpi'] = "<b>Modalité :</b> Effectué seul<br/>
@@ -74,13 +79,13 @@ $descriptions['glpi'] = "<b>Modalité :</b> Effectué seul<br/>
 $descriptions['linkedin'] = "<b>Modalité :</b> Effectué seul<br/>
 <b>Cadre :</b> Préparation de mon projet professionnel<br/>
 <br/>
-Création d'un compte professionnel Linkedin.";
+Durant ma formation, j'ai créé un compte professionnel Linkedin.";
 
 
 $descriptions['github'] = "<b>Modalité :</b> Effectué seul<br/>
 <b>Cadre :</b> Préparation de mon projet professionnel<br/>
 <br/>
-Création d'un compte professionnel gitHub et importation de mes diffrents projets sur mon compte.";
+Durant ma formation, j'ai créé un compte professionnel gitHub et y aie importé les diffrents projets effectués durant la formation, dans le but de les stocker et pouvoir les présenter dans mon avenir professionnel.";
 
 
 /* FORMATIONS */

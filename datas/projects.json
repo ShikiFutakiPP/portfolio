@@ -18,8 +18,8 @@
     "name" : "Procédure - Gestion des stratégies de groupe",
     "logo" : "groupe.png",
     "img" : "groupe.png",
-    "link" : "ressources/Strategie_de_groupe.pdf",
-    "doc" : "",
+    "link" : "",
+    "doc" : "documentations/Strategie_de_groupe.pdf",
     "comps" : [
       {"comp" : "patrimoine"}
     ]
@@ -30,8 +30,8 @@
     "name" : "Procédure - Mise en place de GitLab",
     "logo" : "gitLab.png",
     "img" : "gitLab.png",
-    "link" : "ressources/Procédure_-_Mise_en_place_de_GitLab.pdf",
-    "doc" : "",
+    "link" : "",
+    "doc" : "documentations/Procédure_-_Mise_en_place_de_GitLab.pdf",
     "comps" : [
       {"comp" : "disposition"}
     ]

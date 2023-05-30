@@ -54,10 +54,12 @@ foreach ($elements as $anElement) {
                 style="width:8%;height:8%;margin-right:1%;margin-top:10px">';
             }
         }
-        echo '<div style="display:block;margin-right: 0px;margin-left: auto;">
-        <a href = "'.$anElement->link.'">
-                <button style="margin-top:auto;margin-bottom:auto">Accéder '.$typeElement.'</button>
-            </a>';
+        echo '<div style="display:block;margin-right: 0px;margin-left: auto;">';
+        if (!empty($anElement->link)){
+            echo '<a href = "'.$anElement->link.'">
+                    <button style="margin-top:auto;margin-bottom:auto">Accéder '.$typeElement.'</button>
+                </a>';
+        }
         
         if ($typeElement == "au projet"){
             $docValue = $anElement->doc;
