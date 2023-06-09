@@ -20,7 +20,7 @@
     "logo" : "glpi.png",
     "img" : "glpi.png",
     "link" : "",
-    "doc" : "https://glpi-install.readthedocs.io/fr/latest/",
+    "doc" : "documentations/glpi",
     "other" : "",
     "comps" : [
       {"comp" : "patrimoine"},
