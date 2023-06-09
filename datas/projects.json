@@ -1,11 +1,27 @@
 [
+
+  {
+    "id" : "devops",
+    "name" : "Formation Devops",
+    "logo" :  "azure.png",
+    "img" : "azure.png",
+    "link" : "",
+    "doc" : "",
+    "other" : "https://learn.microsoft.com/fr-fr/training/paths/evolve-your-devops-practices/",
+    "othername" : "à la formation",
+    "comps" : [
+      {"comp" : "disposition"}
+    ]
+  },
+
   {
     "id" : "glpi",
     "name" : "Mise en place de GLPI",
     "logo" : "glpi.png",
     "img" : "glpi.png",
     "link" : "",
-    "doc" : "",
+    "doc" : "https://glpi-install.readthedocs.io/fr/latest/",
+    "other" : "",
     "comps" : [
       {"comp" : "patrimoine"},
       {"comp" : "assistance"},
@@ -20,6 +36,7 @@
     "img" : "groupe.png",
     "link" : "",
     "doc" : "documentations/Strategie_de_groupe.pdf",
+    "other" : "",
     "comps" : [
       {"comp" : "patrimoine"}
     ]
@@ -32,6 +49,7 @@
     "img" : "gitLab.png",
     "link" : "",
     "doc" : "documentations/Procédure_-_Mise_en_place_de_GitLab.pdf",
+    "other" : "",
     "comps" : [
       {"comp" : "disposition"}
     ]
@@ -42,8 +60,10 @@
     "name" : "Compte Linkedin",
     "logo" : "linkdin.png",
     "img" : "linkdin.png",
-    "link" : "https://fr.linkedin.com/in/kevin-fort-45e",
+    "link" : "",
     "doc" : "",
+    "other" : "https://fr.linkedin.com/in/kevin-fort-45e",
+    "othername" : "au compte",
     "comps" : [
       {"comp" : "professionnal"}
     ]
@@ -54,8 +74,10 @@
     "name" : "Compte GitHub et importation de mes projets",
     "logo" : "github.png",
     "img" : "github.png",
-    "link" : "https://github.com/fortk45",
+    "link" : "",
     "doc" : "",
+    "other" : "https://github.com/fortk45",
+    "othername" : "au compte",
     "comps" : [
       {"comp" : "projet"},
       {"comp" : "professionnal"}
@@ -69,6 +91,7 @@
     "img" : "portfolio.png",
     "link" : "https://github.com/ShikiFutakiPP/portfolio",
     "doc" : "",
+    "other" : "",
     "comps" : [
       {"comp" : "professionnal"}
     ]
@@ -79,8 +102,9 @@
     "name" : "Site de gestion de liste de choses à faire<br/>(Bucket List)",
     "logo" : "bucket-list.png",
     "img" : "bucket-list.png",
-    "link" : "https://github.com/ShikiFutakiPP/bucket-list",
+    "link" : "https://github.com/fortk45/bucket-list.git",
     "doc" : "",
+    "other" : "",
     "comps" : [
       {"comp" : "disposition"}
     ]
@@ -91,8 +115,10 @@
     "name" : "Site d'auto-évaluation par compétence et leur suivi<br/>(MSL)",
     "logo" : "MSL.png",
     "img" : "MSL.png",
-    "link" : "https://github.com/ShikiFutakiPP/MSL.git",
+    "link" : "https://github.com/fortk45/MSL.git",
     "doc" : "",
+    "other" : "demos/MSL_demo.mp4",
+    "othername" : "à la démonstration",
     "comps" : [
       {"comp" : "disposition"}
     ]
@@ -103,8 +129,9 @@
     "name" : "Site de suivi des demandes et documents pour les stages",
     "logo" : "stage.png",
     "img" : "stage.png",
-    "link" : "https://github.com/armanceau2/Stages2023",
+    "link" : "https://github.com/fortk45/Stages2023.git",
     "doc" : "",
+    "other" : "",
     "comps" : [
       {"comp" : "assistance"},
       {"comp" : "presence_ligne"},
@@ -118,8 +145,10 @@
     "name" : "Site de commandes de fleurs et de gestion des stocks<br/>(Lafleur)",
     "logo" : "lafleur.png",
     "img" : "lafleur.png",
-    "link" : "https://github.com/DylanAndradePereira/Lafleur",
+    "link" : "https://github.com/fortk45/lafleur.git",
     "doc" : "documentations/Doc_lafleur.pdf",
+    "other" : "demos/Lafleur_demo.mp4",
+    "othername" : "à la démonstration",
     "comps" : [
       {"comp" : "presence_ligne"},
       {"comp" : "disposition"}
@@ -131,8 +160,9 @@
     "name" : "Site de partage des documents et gestion des rapports pour les Astreintes<br/>(Mairie Fleury)",
     "logo" : "mairie.png",
     "img" : "mairie.png",
-    "link" : "https://github.com/ShikiFutakiPP/astreinte",
+    "link" : "https://github.com/fortk45/astreinte.git",
     "doc" : "documentations/Doc_Astreintes.pdf",
+    "other" : "",
     "comps" : [
       {"comp" : "presence_ligne"},
       {"comp" : "disposition"}

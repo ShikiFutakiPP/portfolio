@@ -88,6 +88,12 @@ $descriptions['github'] = "<b>Modalité :</b> Effectué seul<br/>
 Durant ma formation, j'ai créé un compte professionnel gitHub et y aie importé les diffrents projets effectués durant la formation, dans le but de les stocker et pouvoir les présenter dans mon avenir professionnel.";
 
 
+$descriptions['devops'] = "<b>Modalité :</b> Effectué seul<br/>
+<b>Cadre :</b> Travail pratique<br/>
+<br/>";
+
+
+
 /* FORMATIONS */
 
 $descriptions['pix'] = "";

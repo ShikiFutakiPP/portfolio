@@ -68,6 +68,13 @@ foreach ($elements as $anElement) {
                 <button style="margin-top:auto;margin-bottom:auto">Accéder à la documentation</button>
                 </a>';
             }
+
+            $otherValue = $anElement->other;
+            if (!empty($otherValue)){
+                echo '<a href = "'.$otherValue.'">
+                <button style="margin-top:auto;margin-bottom:auto">Accéder '.$anElement->othername.'</button>
+                </a>';
+            }
         }    
         echo '</div>
         </div>        
