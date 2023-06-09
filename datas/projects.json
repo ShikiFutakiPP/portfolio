@@ -103,7 +103,7 @@
     "logo" : "bucket-list.png",
     "img" : "bucket-list.png",
     "link" : "https://github.com/fortk45/bucket-list.git",
-    "doc" : "",
+    "doc" : "documentations/Doc_bucket_list.pdf",
     "other" : "",
     "comps" : [
       {"comp" : "disposition"}
