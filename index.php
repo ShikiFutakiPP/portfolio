@@ -80,7 +80,7 @@
         </section>
 
         <?php 
-            //include 'formations.php';
+            include 'formations.php';
         ?>
     </main>
 </body

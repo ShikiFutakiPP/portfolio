@@ -7,15 +7,25 @@
         // mettre le contenu du fichier dans une variable
         $dataFormation = file_get_contents($fileFormation); 
         // décoder le flux JSON
-        $formations = array_reverse(json_decode($dataFormation)); 
+        $formations = json_decode($dataFormation); 
 
         foreach ($formations as $aFormation) {
 
-            echo    '<div class="card" onClick="document.location.href=\'details.php?formation='.$aFormation->id.'\'">
+            $backcol = "";
+            $formation_state = "";
+            if ($aFormation->success){
+                $backcol = "green";
+                $formation_state = "Réussie";
+            } else {
+                $backcol = "red";
+                $formation_state = "Echouée";
+            }
+
+            echo    '<div class="card" onClick="document.location.href=\'details.php?formation='.$aFormation->id.'\'" style="background-color:'.$backcol.'">
                         <img src="logo/'.$aFormation->logo.'" alt="Image de la formation">
-                        <div class="container">
+                        <div class="container" style="padding-bottom: 0px;">
                             <h3><b>'.$aFormation->name.'</b></h3>'; 
-                            //echo '<p>'.$aFormation->description.'</p>';
+                        echo '<p>'.$formation_state.'</p>';
                         echo '</div>
                     </div>';
         }

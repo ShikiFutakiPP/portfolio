@@ -96,9 +96,27 @@ $descriptions['devops'] = "<b>Modalité :</b> Effectué seul<br/>
 
 /* FORMATIONS */
 
-$descriptions['pix'] = "";
+$descriptions['pix'] = "Pour certifier de mes connaissances de base en numérique, j'ai décidé de passer la certification Pix.";
 
-$descriptions['form_devops'] = "";
+$descriptions['form_devops'] = "Temps passé : 10 heures<br/>Devops est un ensemble de pratiques et d'outils, ainsi qu'une philosophie culturelle. Son but est d'automatiser et d'intégrer les processus entre les équipes de développement et informatiques.";
+
+$descriptions['ANSSI'] = "Temps passé : 30 heures<br/>Le MOOC de l'ANSSI est une formation autour de la cybersécurité.";
+
+$descriptions['Netacad'] = "La formation IT Essential de Cisco a pour but d'apprendre à : <ul>
+    <li>Installer, configurer et dépanner les ordinateurs et les terminaux mobiles.</li>
+    <li>Identifier les menaces fréquentes comme le phishing et l'usurpation d'identité.</li>
+    <li>Développer un esprit critique et des compétences en matière de résolution des problèmes en utilisant des équipements réels et Cisco Packet Tracer.</li></ul>";
+
+$descriptions['Javaeespring'] = "Temps passé : 36 heures<br/>
+J'ai pris la certification Java EE Spring sur fun-mooc pour acquérir des compétences en Java.
+J'ai eu une note de 53%. La note requise pour la réussir étant 60%, je l'ai échouée. 
+Mais même si j’ai échoué à cette formation, elle m’a permis de développer des compétences en Java, 
+qui vont m’être utiles dans mon parcours de SIO SLAM.";
+
+$descriptions['AZ900'] = "La formation AZ900 a pour but d'initier aux concepts du cloud, aux services de base d’Azure, aux charges de travail Azure, aux sécurité et confidentialité dans Azure ainsi que tarification et support Azure.";
+
+$descriptions['voltaire'] = "Temps passé : 10 heures<br/>Pour approfondir et certifier de mon niveau en orthographe, j'ai décidé de passer la certification Voltaire.";
+
 
 
 ?>

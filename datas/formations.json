@@ -4,7 +4,8 @@
     "name" : "Pix",
     "logo" :  "pix.png",
     "img" : "attestation_pix.png",
-    "link" : "https://pix.fr/"
+    "link" : "https://pix.fr/",
+    "success" : true
   },
 
   {
@@ -12,6 +13,54 @@
     "name" : "Formation Devops",
     "logo" :  "azure.png",
     "img" : "azure.png",
-    "link" : "https://learn.microsoft.com/fr-fr/training/paths/evolve-your-devops-practices/"
+    "link" : "https://learn.microsoft.com/fr-fr/training/paths/evolve-your-devops-practices/",
+    "success" : true
+  },
+
+  {
+    "id" : "ANSSI",
+    "name" : "MOOC de l'ANSSI",
+    "logo" : "anssi.png",
+    "img" : "anssi.png",
+    "link" : "https://secnumacademie.gouv.fr/",
+    "success" : false
+  },
+
+  {
+    "id" : "Netacad",
+    "name" : "IT Essential sur Netacad",
+    "logo" : "netacad.png",
+    "img" : "netacad.png",
+    "link" : "https://www.netacad.com/",
+    "success" : false
+  },
+   
+  {
+    "id" : "Javaeespring",
+    "name" : "Java EE Spring",
+    "logo" : "javaeespring.png",
+    "img" : "javaeespring.png",
+    "link" : "https://www.fun-mooc.fr/fr/cours/java-ee-spring-pret-a-lemploi/",
+    "success" : false
+  },
+
+  {
+    "id" : "AZ900",
+    "name" : "AZ900",
+    "logo" : "AZ900.png",
+    "img" : "AZ900.png",
+    "link" : "https://learn.microsoft.com/fr-fr/certifications/exams/az-900/",
+    "success" : false
+  },
+
+  {
+    "id" : "voltaire",
+    "name" : "Certification Voltaire",
+    "logo" : "voltaire.png",
+    "img" : "voltaire.png",
+    "link" : "https://www.projet-voltaire.fr/",
+    "success" : false
   }
+  
+
 ]

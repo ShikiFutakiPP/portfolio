@@ -1,20 +1,6 @@
 [
 
   {
-    "id" : "devops",
-    "name" : "Formation Devops",
-    "logo" :  "azure.png",
-    "img" : "azure.png",
-    "link" : "",
-    "doc" : "",
-    "other" : "https://learn.microsoft.com/fr-fr/training/paths/evolve-your-devops-practices/",
-    "othername" : "à la formation",
-    "comps" : [
-      {"comp" : "disposition"}
-    ]
-  },
-
-  {
     "id" : "glpi",
     "name" : "Mise en place de GLPI",
     "logo" : "glpi.png",
